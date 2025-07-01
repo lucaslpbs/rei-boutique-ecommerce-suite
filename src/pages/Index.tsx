@@ -12,21 +12,21 @@ const Index = () => {
   
   const banners = [
     {
-      title: 'Nova Coleção Primavera/Verão',
-      subtitle: 'Elegância em cada detalhe',
-      image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&h=600&fit=crop',
+      title: 'Nova Coleção Masculina',
+      subtitle: 'Elegância e estilo para o homem moderno',
+      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=600&fit=crop',
       cta: 'Ver Coleção'
     },
     {
       title: 'Até 50% OFF',
-      subtitle: 'Liquidação de Inverno',
-      image: 'https://images.unsplash.com/photo-1445205170230-053b83016050?w=1200&h=600&fit=crop',
+      subtitle: 'Moda masculina premium com preços especiais',
+      image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=1200&h=600&fit=crop',
       cta: 'Aproveitar'
     },
     {
-      title: 'Moda Executiva',
-      subtitle: 'Para a mulher moderna',
-      image: 'https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=1200&h=600&fit=crop',
+      title: 'Acessórios Masculinos',
+      subtitle: 'Complete seu visual com estilo',
+      image: 'https://images.unsplash.com/photo-1556306535-38febf6782e7?w=1200&h=600&fit=crop',
       cta: 'Descobrir'
     },
   ];
@@ -109,7 +109,7 @@ const Index = () => {
             Nossas Categorias
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {['Vestidos', 'Blazers', 'Blusas', 'Conjuntos'].map((category) => (
+            {['Blusas', 'Relógios', 'Óculos', 'Calçados'].map((category) => (
               <Link
                 key={category}
                 to="/produtos"
